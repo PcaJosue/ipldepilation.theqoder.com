@@ -1,0 +1,12 @@
+baseURL = 'https://ipldepilacion.theqoder.com/'
+languageCode = "en-us"
+title = "Infrared Therapy Lamp | Your Path to Recovery"
+disableKinds = ["taxonomy"]
+enableGitInfo = true
+[params]
+  author = "Josue Pacheco"
+[modules]
+  disable = true
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
