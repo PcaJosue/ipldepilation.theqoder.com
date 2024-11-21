@@ -707,7 +707,7 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
   background-position: left bottom; }
 
@@ -753,7 +753,7 @@ p {
   .header_hero_content {
     padding-top: 50px; } }
 .header_hero_content .header_title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #222;
   margin-top: 20px; }
@@ -991,3 +991,13 @@ p.form-message.success, p.form-message.error {
     background-color: #1E75D9; }
 
 /*# sourceMappingURL=style.css.map */
+h1 {
+  font-family: Arial, sans-serif; /* Adjust font family if needed */
+  font-size: 2rem; /* Adjust size based on preference */
+  font-weight: bold;
+  color: #0078FF; /* Match the blue color */
+  text-transform: uppercase; /* Ensure the text is uppercase */
+  letter-spacing: 2px; /* Add some spacing between letters */
+  margin: 0; /* Optional: Adjust margins if necessary */
+  text-align: center; /* Optional: Center-align the text */
+}
