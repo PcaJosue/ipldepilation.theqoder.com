@@ -1001,3 +1001,22 @@ h1 {
   margin: 0; /* Optional: Adjust margins if necessary */
   text-align: center; /* Optional: Center-align the text */
 }
+
+@media (max-width: 7850px) {
+  h1 {
+    font-size: 1.5rem; /* Slightly smaller font size for tablets */
+  }
+}
+
+/* For mobile phones (width <= 480px) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.2rem; /* Smaller font size for small screens */
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 0.8rem; /* Smaller font size for small screens */
+  }
+}
